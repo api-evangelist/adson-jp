@@ -66,7 +66,7 @@
 
 ADSON株式会社は、2020年に東京で設立されたデザイン・開発・事業運営の会社です。アプリ開発、ブランド、メディア、データ提供など多岐にわたるサービスを展開し、AI・WebアプリやデータAPIを提供しています。無料相談や問い合わせ窓口も設け、顧客のアイデアを形にすることをミッションとしています。
 
-**Areas:** Company · Design · Development · Media · Data · AI
+**Areas:** Company · Design · Development · Media · Data · Artificial Intelligence
 
 ## ADSON on APIs.io
 
@@ -84,7 +84,7 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Adson Jp Agentic Access](https://apis.io/agentic-access/adson-jp/adson-jp-agentic-access/)
+- [ADSON Agentic Access](https://apis.io/agentic-access/adson-jp/adson-jp-agentic-access/)
 
 #### Governance rules (1)
 
@@ -92,11 +92,30 @@ Spectral rulesets for the provider's contracts.
 
 - [ADSON API Rules](https://apis.io/rules/adson-jp/adson-jp-rules/)
 
-#### Security (1)
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Adson Jp Domain Security](https://apis.io/security/adson-jp/adson-jp-domain-security/)
+- [ADSON Authentication](https://apis.io/security/adson-jp/adson-jp-authentication/)
+- [ADSON Domain Security](https://apis.io/security/adson-jp/adson-jp-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [ADSON Scopes](https://apis.io/scopes/adson-jp/adson-jp-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [ADSON Plans Pricing](https://apis.io/plans/adson-jp/adson-jp-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [ADSON Rate Limits](https://apis.io/rate-limits/adson-jp/adson-jp-rate-limits/)
 
 ## Where to find this API
 
@@ -108,34 +127,34 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 17.6** — emerging · rubric 0.25.0 · scored 2026-11-01
+**Kin Score 20.3** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 57.1 |
+| Discoverability | 64.3 |
 | Contract quality | 0.0 |
-| Contract governance | 65.5 |
-| Operational transparency | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 28.6 |
 | Developer ergonomics | 0.0 |
-| Access clarity | 21.1 |
+| Access clarity | 38.3 |
 
-**Agent readiness 10.3** — agent-aware
+**Agent readiness 6.0** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | — |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | — |
 | Idempotency | — |
 | Error Semantics | derived (partial credit) |
 | OpenAPI Examples | — |
-| Rate Limit Signal | — |
+| Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
 | Agent Skills | — |
 | Well Known Catalog | — |
-| Consent Identity | — |
+| Consent Identity | signal |
 | Agent Card | — |
 | Dry Run Mode | — |
 | Delegated Identity | — |
@@ -144,8 +163,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 13.6** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/adson-jp/](https://apis.io/providers/adson-jp/).
 
